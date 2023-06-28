@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/head_tail_00000" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00001" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00002" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00003" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00004" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00005" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00006" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00007" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00008" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00009" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00010" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00011" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00012" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00013" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00014" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00015" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00016" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00017" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00018" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00019" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00020" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00021" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00022" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00023" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00024" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00025" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00026" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00027" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00028" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00029" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00030" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00031" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00032" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00033" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00034" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00035" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00036" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00037" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00038" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00039" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00040" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00041" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00042" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00043" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00044" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00045" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00046" android:duration="30" />
+    <item android:drawable="@drawable/head_tail_00047" android:duration="30" />
+</animation-list>

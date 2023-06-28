@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.first_player_games.Auth.OTP_field_fragment">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:text="Verify Phone"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_marginBottom="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:text="Please Enter OTP"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/otp_phone_number_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:text="An otp has been sent to phonenumber : "
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dice"
+            >
+
+            <EditText
+                android:id="@+id/phone_otp_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="OTP"
+                android:paddingVertical="10dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:layout_marginRight="15dp"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:maxLength="6"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/phone_otp_verify_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dice"
+            android:backgroundTint="@color/gree2"
+            android:text="Verify"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="20dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="40dp"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/red1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="Waiting for Otp"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

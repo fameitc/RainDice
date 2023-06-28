@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/letsplaycard.iml" filepath="$PROJECT_DIR$/.idea/modules/letsplaycard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/letsplaycard.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.iml" filepath="$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ludogame/letsplaycard.ludogame.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.iml" filepath="$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.main.iml" filepath="$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/upiPay/letsplaycard.upiPay.unitTest.iml" />
+    </modules>
+  </component>
+</project>

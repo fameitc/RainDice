@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.example.sms_readpayment" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+10-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:6:5-70
+10-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:6:22-67
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:7:5-67
+11-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:8:5-79
+12-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:8:22-76
+13
+14    <application
+14-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:10:5-47:19
+15        android:allowBackup="true"
+15-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:11:9-35
+16        android:label="@string/app_name"
+16-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:12:9-41
+17        android:networkSecurityConfig="@xml/network_security_config"
+17-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:13:9-69
+18        android:supportsRtl="true"
+18-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:14:9-35
+19        android:theme="@style/Theme.SMS_ReadPayment"
+19-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:16:9-53
+20        android:usesCleartextTraffic="true"
+20-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:17:9-44
+21        tools:replace="android:theme" >
+21-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:15:9-38
+22        <activity
+22-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:18:9-21:40
+23            android:name="com.example.sms_readpayment.CheckPaymentStatus"
+23-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:19:13-47
+24            android:exported="false"
+24-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:21:13-37
+25            android:theme="@style/Themeapp" />
+25-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:20:13-44
+26        <activity
+26-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:22:9-24:40
+27            android:name="com.example.sms_readpayment.MainActivity"
+27-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:23:13-41
+28            android:exported="false" />
+28-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:24:13-37
+29        <activity
+29-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:25:9-33:20
+30            android:name="com.example.sms_readpayment.InitiatePayment"
+30-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:26:13-44
+31            android:exported="true" >
+31-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:27:13-36
+32            <intent-filter>
+32-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:28:13-32:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:29:17-69
+33-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:29:25-66
+34
+35                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+36            </intent-filter>
+37        </activity>
+38        <!-- <receiver android:name=".SmsListener" -->
+39        <!-- android:exported="true"> -->
+40        <!-- <intent-filter> -->
+41        <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED" /> -->
+42        <!-- </intent-filter> -->
+43        <!-- </receiver> -->
+44        <receiver
+44-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:40:9-46:20
+45            android:name="com.example.sms_readpayment.SmsListener"
+45-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:41:13-40
+46            android:exported="true" >
+46-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:42:13-36
+47            <intent-filter android:priority="1000" >
+47-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:43:13-45:29
+47-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:43:28-51
+48                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+48-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:44:17-82
+48-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:44:25-79
+49            </intent-filter>
+50        </receiver>
+51    </application>
+52
+53</manifest>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.first_player_games.Auth.Login_Signup_main_fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="40dp"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/mainoprinignlogo"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/new_logo_stars"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:text="Login/Signup"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_marginBottom="30dp"
+            />
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:text="Please Enter your Phone Number"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dice"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91   |"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <EditText
+                android:id="@+id/phone_number_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="Phone number ... "
+                android:paddingVertical="10dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:layout_marginRight="15dp"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/phone_signin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dice"
+            android:backgroundTint="@color/gree2"
+            android:text="Login/Signup with phone"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="20dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:text="You can also use your Google/Facebook account to Login/Signup"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            />
+        </LinearLayout>
+        <Button
+            android:id="@+id/google_signin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dice"
+            android:backgroundTint="@color/red1"
+            android:text="Login/Signup with Google"
+            android:textColor="@color/white"
+            android:paddingHorizontal="20dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/dice"-->
+<!--            android:backgroundTint="@color/blue9"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:paddingVertical="8dp"-->
+<!--            >-->
+<!--            <com.facebook.login.widget.LoginButton-->
+<!--                android:id="@+id/facebook_login_button"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:backgroundTint="@color/blue9"-->
+<!--                android:text="Login/Signup with Facebook"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textStyle="bold"-->
+<!--                android:background="@drawable/dice"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+
+
+    </LinearLayout>
+
+</FrameLayout>

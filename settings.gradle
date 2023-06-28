@@ -1,0 +1,4 @@
+rootProject.name='letsplaycard'
+include ':app'
+include ':upiPay'
+include ':ludogame'

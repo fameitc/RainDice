@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-ads:19.6.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/204f1d9c33793ad450119837a0df2843/transformed/jetified-play-services-ads-19.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/204f1d9c33793ad450119837a0df2843/transformed/jetified-play-services-ads-19.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/204f1d9c33793ad450119837a0df2843/transformed/jetified-play-services-ads-19.6.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-ads/19.6.0/6a8b08d2a93001c8d089863beda57683994fb63d/play-services-ads-19.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

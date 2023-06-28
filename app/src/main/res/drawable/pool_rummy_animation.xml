@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/pool_rummy_00000" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00001" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00002" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00003" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00004" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00005" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00006" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00007" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00008" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00009" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00010" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00011" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00012" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00013" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00014" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00015" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00016" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00017" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00018" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00019" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00020" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00021" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00022" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00023" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00024" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00025" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00026" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00027" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00028" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00029" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00030" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00031" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00032" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00033" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00034" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00035" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00036" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00037" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00038" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00039" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00040" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00041" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00042" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00043" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00044" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00045" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00046" android:duration="30" />
+    <item android:drawable="@drawable/pool_rummy_00047" android:duration="30" />
+</animation-list>

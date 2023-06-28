@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.asli.rummy">
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <queries>
+        <package android:name="com.phonepe.app" />
+        <package android:name="net.one97.paytm" />
+        <package android:name="com.google.android.apps.nbu.paisa.user" />
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera2.full"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.asli.rummy.GameApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/app_icon"
+        android:screenOrientation="sensorLandscape"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme,android:usesCleartextTraffic,android:name">
+
+        <activity
+            android:name="com.asli.rummy.Activity.TourListDetail"
+            android:exported="false" />
+        <activity
+            android:name="com.asli.rummy._Tournament.TourList"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.actions" -->
+        <!-- android:resource="@xml/animal_roulette_animation" /> -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.actions" -->
+        <!-- android:resource="@xml/ander_bhahr_ani" /> -->
+        <activity
+            android:name="com.asli.rummy.Statement"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.RedeemCoins.WithdrawalList"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._rouleteGame.RouleteGame_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._jhandhiMunda.JhandhiMunda_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._baccarat.Baccarat_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.Activity.Spinner_Wheels"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.Activity.Spinner_Wheels_Reward"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._RedBlack.RedBlackPot_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._CoinFlip.cointoss.MainActivity"
+            android:exported="false"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name="com.asli.rummy._CoinFlip.HeadTail_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._ColorPrediction.ColorPrediction"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._Roulette.RouletteActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._AnimalRoulate.AnimalRoulette_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._CarRoullete.CarRoullete_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._SevenUpGames.SevenUp_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._AdharBahar.Andhar_Bahar_NewUI"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._Rummy.RummPoint"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter android:label="RummyGame">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="@string/deep_link_url"
+                    android:pathPrefix="/rummygame"
+                    android:scheme="https" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asli.rummy._RummyDeal.RummyDealGame"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._RummyPull.RummyPullGame"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.Details.GameDetails_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._LuckJackpot.LuckJackPot_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.PaymentScreen.Payment_Upload_A"
+            android:exported="false" />
+        <activity
+            android:name="com.asli.rummy.PaymentScreen.Payment_A"
+            android:exported="false" /> <!-- Only add it if you need Auto OTP reading feature -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.asli.rummy._DragonTiger.DragonTiger_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.RedeemCoins.RedeemActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._AdharBahar.GameActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.asli.rummy._AdharBahar.HorizontalAndhar_Bahar_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._AdharBahar.AndharBahar_Home_A"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.Activity.GameChatActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.Activity.Splashscreen"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asli.rummy.Activity.Homepage"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.gamegards.letsplaycard.Activity.Homepage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asli.rummy.account.Register_Activity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy.account.LoginScreen"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asli.rummy.account.LoginWithPasswordScreen_A"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asli.rummy.Activity.BuyChipsList"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.asli.rummy._Poker.PokerGame_A"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter android:label="PokerGame">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="@string/deep_link_url"
+                    android:pathPrefix="/pokergame"
+                    android:scheme="https" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asli.rummy._TeenPatti.PublicTable_New"
+            android:exported="true"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter android:label="Teenpatti">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <data
+                    android:host="@string/deep_link_url"
+                    android:pathPrefix="/teenpattipublic"
+                    android:scheme="https" />
+                <!-- note that the leading "/" is required for pathPrefix -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.asli.rummy.Activity.BuyChipsDetails"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="@string/razor_pay_test" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/app_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service
+            android:name="com.asli.rummy.Firebase.MessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Keep it true in UAT environment-->
+        <meta-data
+            android:name="com.phonepe.android.sdk.Debuggable"
+            android:value="false"/>
+
+        <!-- Keep it false in production environment-->
+        <meta-data
+            android:name="com.phonepe.android.sdk.isUAT"
+            android:value="false"/>
+
+        <meta-data
+            android:name="com.phonepe.android.sdk.MerchantId"
+            android:value="RAINDICEGAMEZONEONLINE"/>
+
+        <!-- Get the App Id from PhonePe-->
+        <meta-data
+            android:name="com.phonepe.android.sdk.AppId"
+            android:value="HDNDKLW8q7MVZ5dIlyL+SETKKvU="/>
+
+        <!-- Keep it true in UAT environment-->
+<!--        <meta-data-->
+<!--            android:name="com.phonepe.android.sdk.Debuggable"-->
+<!--            android:value="true"/>-->
+
+<!--        &lt;!&ndash; Keep it true in UAT environment&ndash;&gt;-->
+<!--        <meta-data-->
+<!--            android:name="com.phonepe.android.sdk.isUAT"-->
+<!--            android:value="true"/>-->
+
+<!--        &lt;!&ndash; The value will be the MID&ndash;&gt;-->
+<!--        <meta-data-->
+<!--            android:name="com.phonepe.android.sdk.MerchantId"-->
+<!--            android:value="RAINDICEGAMEZONEONLINE"/>-->
+
+<!--        <meta-data-->
+<!--            android:name="com.phonepe.android.sdk.isSimulator"-->
+<!--            android:value="true" />-->
+
+    </application>
+
+</manifest>
