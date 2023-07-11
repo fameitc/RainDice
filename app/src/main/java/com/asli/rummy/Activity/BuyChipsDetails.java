@@ -407,23 +407,23 @@ public class BuyChipsDetails extends BaseActivity implements PaymentResultListen
 
     private void initPaymentStage() {
         ChipsRepository chipsRepository = new ChipsRepository(getApplicationContext());
-        btnDummyPay.setVisibility(
-                SharePref.getInstance().isApplicationStage() ? View.VISIBLE : View.GONE
-        );
-
-        btnDummyPay.setOnClickListener(view ->{
-            progressDialog.show();
-            chipsRepository.call_api_dummyOrder(plan_id,amount).observe(this, new Observer<String>() {
-                @Override
-                public void onChanged(String s) {
-                    progressDialog.dismiss();
-                    if(s.equalsIgnoreCase("success"))
-                        SuccessBox();
-                    else
-                        Functions.showToast(context,s);
-                }
-            });
-        });
+//        btnDummyPay.setVisibility(
+//                SharePref.getInstance().isApplicationStage() ? View.VISIBLE : View.GONE
+//        );
+//
+//        btnDummyPay.setOnClickListener(view ->{
+//            progressDialog.show();
+//            chipsRepository.call_api_dummyOrder(plan_id,amount).observe(this, new Observer<String>() {
+//                @Override
+//                public void onChanged(String s) {
+//                    progressDialog.dismiss();
+//                    if(s.equalsIgnoreCase("success"))
+//                        SuccessBox();
+//                    else
+//                        Functions.showToast(context,s);
+//                }
+//            });
+//        });
     }
 
     public void spin() {
