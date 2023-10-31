@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.sms_readpayment" >
 
-    <uses-sdk
-        android:minSdkVersion="21"
-        android:targetSdkVersion="32" />
+    <uses-sdk android:minSdkVersion="21" />
 
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.INTERNET" />

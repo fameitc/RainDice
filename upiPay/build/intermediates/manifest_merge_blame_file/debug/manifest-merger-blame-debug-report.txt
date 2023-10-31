@@ -3,87 +3,84 @@
 3    xmlns:tools="http://schemas.android.com/tools"
 4    package="com.example.sms_readpayment" >
 5
-6    <uses-sdk
-7        android:minSdkVersion="21"
-7-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml
-8        android:targetSdkVersion="32" />
-8-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml
-9
-10    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-10-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:6:5-70
-10-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:6:22-67
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:7:5-67
-11-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:7:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:8:5-79
-12-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:8:22-76
-13
-14    <application
-14-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:10:5-47:19
-15        android:allowBackup="true"
-15-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:11:9-35
-16        android:label="@string/app_name"
-16-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:12:9-41
-17        android:networkSecurityConfig="@xml/network_security_config"
-17-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:13:9-69
-18        android:supportsRtl="true"
-18-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:14:9-35
-19        android:theme="@style/Theme.SMS_ReadPayment"
-19-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:16:9-53
-20        android:usesCleartextTraffic="true"
-20-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:17:9-44
-21        tools:replace="android:theme" >
-21-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:15:9-38
-22        <activity
-22-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:18:9-21:40
-23            android:name="com.example.sms_readpayment.CheckPaymentStatus"
-23-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:19:13-47
-24            android:exported="false"
-24-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:21:13-37
-25            android:theme="@style/Themeapp" />
-25-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:20:13-44
-26        <activity
-26-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:22:9-24:40
-27            android:name="com.example.sms_readpayment.MainActivity"
-27-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:23:13-41
-28            android:exported="false" />
-28-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:24:13-37
-29        <activity
-29-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:25:9-33:20
-30            android:name="com.example.sms_readpayment.InitiatePayment"
-30-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:26:13-44
-31            android:exported="true" >
-31-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:27:13-36
-32            <intent-filter>
-32-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:28:13-32:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:29:17-69
-33-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:29:25-66
-34
-35                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-36            </intent-filter>
-37        </activity>
-38        <!-- <receiver android:name=".SmsListener" -->
-39        <!-- android:exported="true"> -->
-40        <!-- <intent-filter> -->
-41        <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED" /> -->
-42        <!-- </intent-filter> -->
-43        <!-- </receiver> -->
-44        <receiver
-44-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:40:9-46:20
-45            android:name="com.example.sms_readpayment.SmsListener"
-45-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:41:13-40
-46            android:exported="true" >
-46-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:42:13-36
-47            <intent-filter android:priority="1000" >
-47-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:43:13-45:29
-47-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:43:28-51
-48                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-48-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:44:17-82
-48-->/home/vivek-fameitc/AndroidStudioProjects/rain-dice-main/upiPay/src/main/AndroidManifest.xml:44:25-79
-49            </intent-filter>
-50        </receiver>
-51    </application>
-52
-53</manifest>
+6    <uses-sdk android:minSdkVersion="21" />
+6-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+8-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:6:5-70
+8-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:6:22-67
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:7:5-67
+9-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:7:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:8:5-79
+10-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:8:22-76
+11
+12    <application
+12-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:10:5-47:19
+13        android:allowBackup="true"
+13-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:11:9-35
+14        android:label="@string/app_name"
+14-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:12:9-41
+15        android:networkSecurityConfig="@xml/network_security_config"
+15-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:13:9-69
+16        android:supportsRtl="true"
+16-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:14:9-35
+17        android:theme="@style/Theme.SMS_ReadPayment"
+17-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:16:9-53
+18        android:usesCleartextTraffic="true"
+18-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:17:9-44
+19        tools:replace="android:theme" >
+19-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:15:9-38
+20        <activity
+20-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:18:9-21:40
+21            android:name="com.example.sms_readpayment.CheckPaymentStatus"
+21-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:19:13-47
+22            android:exported="false"
+22-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:21:13-37
+23            android:theme="@style/Themeapp" />
+23-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:20:13-44
+24        <activity
+24-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:22:9-24:40
+25            android:name="com.example.sms_readpayment.MainActivity"
+25-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:23:13-41
+26            android:exported="false" />
+26-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:24:13-37
+27        <activity
+27-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:25:9-33:20
+28            android:name="com.example.sms_readpayment.InitiatePayment"
+28-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:26:13-44
+29            android:exported="true" >
+29-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:27:13-36
+30            <intent-filter>
+30-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:28:13-32:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:29:17-69
+31-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:29:25-66
+32
+33                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+34            </intent-filter>
+35        </activity>
+36        <!-- <receiver android:name=".SmsListener" -->
+37        <!-- android:exported="true"> -->
+38        <!-- <intent-filter> -->
+39        <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED" /> -->
+40        <!-- </intent-filter> -->
+41        <!-- </receiver> -->
+42        <receiver
+42-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:40:9-46:20
+43            android:name="com.example.sms_readpayment.SmsListener"
+43-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:41:13-40
+44            android:exported="true" >
+44-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:42:13-36
+45            <intent-filter android:priority="1000" >
+45-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:43:13-45:29
+45-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:43:28-51
+46                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+46-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:44:17-82
+46-->D:\AndroidStudioProjects\rain-dice-main\upiPay\src\main\AndroidManifest.xml:44:25-79
+47            </intent-filter>
+48        </receiver>
+49    </application>
+50
+51</manifest>
